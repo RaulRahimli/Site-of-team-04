@@ -1,0 +1,105 @@
+* {
+    text-align:center;
+    font-family: sans-serif, "Times New Roman", Times;
+    opacity: 1;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    /*    margin: 25px 20px 20px 20px;*/
+    margin: 0;
+    padding:0;
+    /*    height: 100px;*/
+    width: 1140;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    box-sizing: border-box;
+}
+header {
+    background-image: url("images/bg_site.jpg");
+}
+
+p{
+    font-size: 25px;
+    color: black;
+    font-weight:bolder ;
+    background-image: url("images/bg_hoc_blured.png");
+    border-left: #FFFFFF 20px solid;
+    border-right: #FFFFFF 20px solid;
+    border-top: #FFFFFF 15px solid;
+    box-shadow: 2px 2px 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    background-size: cover;
+
+}
+
+h2{
+    font-size:50px;
+    text-align: center;
+}
+
+.fade-in1{
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+
+}
+
+.rainbow {
+    background-image: linear-gradient(to right, red, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.video-container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.video {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 800px;
+    padding-bottom: 300px;
+}
+
+.navigation_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+}
+
+.navigation_bar h5 {
+    color: #d20e14;
+    font-weight: 600;
+}
+
+.navigation_bar ul {
+    display: flex;
+}
+
+.navigation_bar ul li {
+    list-style: none;
+}
+
+.navigation_bar ul li a {
+    text-decoration: none;
+    color: #bb091a;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.navigation_bar ul li:hover a {
+    color: #ffb742  ;
+}
+
+.navigation_bar ul li:last-child a {
+    margin: 0;
+}

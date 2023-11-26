@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Team TRON EXPLORER</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Mono&display=swap">
+</head>
+<body>
+<div class="navigation_bar">
+    <h2>TRON EXPLORERS</h2>
+    <ul>
+        <li><a href="index.html" target="_blank">Home</a></li>
+        <li><a href="information_about_us.html" target="_blank">About Us</a></li>
+        <li><a href="hour_of_code_page.html" target="_blank">Hour Of Code</a></li>
+        <li><a href="game.html" target="_blank">Our Game</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+</div>
+<br>
+<div id="greeting">
+
+<script src="index.js"></script>
+</div>
+
+<div class="main">
+    <h4>Hi, We Are <span>TRON EXPLORERS</span>👋</h4>
+    <p class="title">1st Year SITE Students Of ADA University</p>
+    <p class="subtitle">Our team consists of four members: Metanet Heydarli, Raul Rahimli, Agil Aliyev, and Safiyar Safiyarli.</p>
+    <img src="images/logo.png" alt="Logo">
+</div>
+<div class="about">
+    <div class="row">
+        <img src="images/HoC.png">
+        <img src="images/HoC2.png">
+        <img src="images/HoC3.png">
+        <img src="images/HoC4.png">
+        <img src="images/HoC5.png">
+        <div class="info"><p class="big">We held our HOUR OF CODE project on 6th
+             November at Baku Secondary School №236.
+              There were 20 students from 8th grade participating
+               in this event. You can read about our
+               event briefly via this <a href="hour_of_code_page.html" class="link_Hoc">link</a></p></div>
+</div></div>
+<footer>
+    <div class="cols">
+       <h3>TRON EXPLORERS</h3>
+    <div class="links-col">
+        <h4>Useful links</h4>
+        <a href="index.html" target="_blank">Home</a>
+        <a href="information_about_us.html" target="_blank">About Us</a>
+        <a href="hour_of_code_page.html" target="_blank">Hour Of Code</a>
+        <a href="game.html" target="_blank">Our Game</a>
+    </div>
+    <div class="links-col">
+        <h4>Social Media</h4>
+        <a href="https://www.instagram.com/reel/C0Hlzf-sxAz/?igshid=MzY1NDJmNzMyNQ==" target="_blank">Instagram</a>
+        <a href="https://m.facebook.com/story.php?story_fbid=pfbid02r4QHmD2CqkGZ5jqhrLHpbjQgHLBLJkcPo2JgfHXH2nFS7UQwe7DfY66Tax5rTwtgl&id=100016870927089&mibextid=Nif5oz " target="_blank">Facebook</a>
+        <a href="" target="_blank">GitHub</a>
+    </div>
+    <div class="links-col">
+        <h4>Codecademy profiles</h4>
+        <a href="https://www.codecademy.com/profiles/Matanat_Heydarli" target="_blank">Matanat Heydarli</a>
+        <a href="https://www.codecademy.com/profiles/raulrahimli" target="_blank">Raul Rahimli</a>
+        <a href="https://www.codecademy.com/profiles/aqilaliyev" target="_blank">Aqil Aliyev</a>
+        <a href="https://www.codecademy.com/profiles/ssafiyarli18003" target="_blank">Safiyar Safiyarli</a>
+    </div>
+</div>
+
+</footer>
+</body>
+</html>

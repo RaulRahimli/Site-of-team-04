@@ -1,0 +1,57 @@
+* {
+    background-image: url("images/bg_space.jpg");
+    text-align: left;
+}
+
+p{
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+h3 {
+    color: #c55;
+    font-size: 35px;
+    text-align: center;
+}
+.navigation_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 50px;
+}
+
+.navigation_bar h5 {
+    color: #d20e14;
+    font-weight: 600;
+}
+
+.navigation_bar ul {
+    display: flex;
+}
+
+.navigation_bar ul li {
+    list-style: none;
+}
+
+.navigation_bar ul li a {
+    text-decoration: none;
+    color: #bb091a;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.navigation_bar ul li:hover a {
+    color: #ffb742  ;
+}
+
+.navigation_bar ul li:last-child a {
+    margin: 0;
+}
+.video{
+    display: block;
+    margin:auto;
+}
